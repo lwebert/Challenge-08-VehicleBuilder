@@ -4,7 +4,7 @@ import Motorbike from "../classes/Motorbike.js";
 import Car from "../classes/Car.js";
 
 // define the interface
-interface AbleToTow {
+interface AbleToTow { //object
     // declare the properties
     towingCapacity: number;
     // tow method takes a truck or a motorbike or a car as an argument

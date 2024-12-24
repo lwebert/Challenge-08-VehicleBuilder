@@ -5,6 +5,8 @@ class Wheel {
   private tireBrand: string;
 
   // Constructor for the Wheel class
+  // using default parameters, so if we don't input arguments into the parameters when calling it, it will use defaults
+  // parameter when defining it, arguments when calling/implementing it 
   constructor(diameter: number = 18, tireBrand: string = "GoodYear") {
     this.diameter = diameter;
     this.tireBrand = tireBrand;

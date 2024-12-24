@@ -8,7 +8,7 @@ class Vehicle implements Driveable {
   currentSpeed: number;
 
   // Constructor for the Vehicle class
-  constructor() {
+  constructor() { //not taking anything into its constructor
     this.started = false;
     this.currentSpeed = 0;
   }
