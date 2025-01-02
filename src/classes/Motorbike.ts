@@ -47,7 +47,7 @@ class Motorbike extends Vehicle {
 
 	// TODO: Implement the wheelie method
 	// TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
-	wheelie() {
+	wheelie(): void {
 		console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
 	}
 
@@ -61,10 +61,11 @@ class Motorbike extends Vehicle {
       Vehicle make: ${this.make}.
       Vehicle model: ${this.model}.
       Vehicle year: ${this.year}.
-      Vehicle weight: ${this.weight}.
-      Vehicle top speed: ${this.topSpeed}.
+      Vehicle weight: ${this.weight} lbs.
+      Vehicle top speed: ${this.topSpeed} mph.
       Vehicle color: ${this.color}.
-      Vehicle wheels: ${this.wheels}.`);
+      Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire.
+      Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire.`);
 	}
 }
 
