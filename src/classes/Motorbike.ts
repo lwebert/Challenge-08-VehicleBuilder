@@ -58,14 +58,14 @@ class Motorbike extends Vehicle {
 		// TODO: The method should log the details of the Motorbike
 		// TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
 		console.log(`Vehicle VIN: ${this.vin}.
-      Vehicle make: ${this.make}.
-      Vehicle model: ${this.model}.
-      Vehicle year: ${this.year}.
-      Vehicle weight: ${this.weight} lbs.
-      Vehicle top speed: ${this.topSpeed} mph.
-      Vehicle color: ${this.color}.
-      Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire.
-      Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire.`);
+Vehicle make: ${this.make}.
+Vehicle model: ${this.model}.
+Vehicle year: ${this.year}.
+Vehicle weight: ${this.weight} lbs.
+Vehicle top speed: ${this.topSpeed} mph.
+Vehicle color: ${this.color}.
+Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire.
+Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire.`);
 	}
 }
 

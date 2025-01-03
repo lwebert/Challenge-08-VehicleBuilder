@@ -317,11 +317,11 @@ class Cli {
 				// TODO: Use the answers object to pass the required properties to the Motorbike constructor
 				const wheels = [
 					new Wheel(
-						answers.frontWheelDiameter,
+						parseInt(answers.frontWheelDiameter),
 						answers.frontWheelBrand
 					),
 					new Wheel(
-						answers.rearWheelDiameter,
+						parseInt(answers.rearWheelDiameter),
 						answers.rearWheelBrand
 					),
 				];
@@ -364,7 +364,7 @@ class Cli {
 			])
 			.then((answers) => {
 				// TODO: check if the selected vehicle is the truck
-				if (answers.vehicleToTow.value === truck) {
+				if (answers.vehicleToTow === truck) {
 					// TODO: if it is, log that the truck cannot tow itself then perform actions on the truck to allow the user to select another action
 					console.log(`The truck cannot tow itself.`);
 					// throw new Error(`The truck cannot tow itself.`); //how to throw an error
@@ -372,7 +372,7 @@ class Cli {
 
 				// TODO: if it is not, tow the selected vehicle then perform actions on the truck to allow the user to select another action
 				else {
-					truck.tow(answers.vehicleToTow.value);
+					truck.tow(answers.vehicleToTow);
 				}
 
 				this.performActions();
