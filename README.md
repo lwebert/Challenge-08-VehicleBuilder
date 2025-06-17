@@ -1,9 +1,10 @@
 # Vehicle Builder
+University of Denver - Module 08 Challenge
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-This is a command-line application that builds and uses cars, trucks, and motorbikes to perform a series of actions. The application utilizes the inquirer package and typescript.
+This is a command-line application where users are able to build and drive virtual cars, trucks, and motorbikes in the terminal. The application utilizes the inquirer package and TypeScript.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -28,14 +29,13 @@ To install the application locally, do the following in your terminal:
 To run the application, use the following command in your terminal: `npm run start`
 
 ## Contributing
-This application was developed by Lauren Webert. Here are some guidelines on ways to contribute:
+This application was developed by Lauren Webert. Lauren wrote original JavaScript code to implement functional Truck, Motorbike and Cli classes, as well as the base index.ts file that utilized all classes and interfaces. Code was provided by the University of Denver boot camp for the Car, Vehicle, and Wheel class, as well as the AbleToTow and Drivable interfaces.
 
+Here are some guidelines on ways to contribute:
 Report a bug fix.
-
 1. Create a new Issue in the GitHub repo.
 
 Make local changes to push up.
-
 1. Create a new branch (`git checkout -b <your-feature-branch-name>`)
 2. Make your changes locally
 3. Push the code back to the GitHub repo (`git push origin <your-feature-branch-name>`)
