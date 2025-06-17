@@ -19,7 +19,7 @@ This is a command-line application where users are able to build and drive virtu
 To install the application locally, do the following in your terminal:
 
 1. Clone the repository to your local computer.  
-   `git clone git@github.com:lwebert/Challenge-08.git`
+   `git clone git@github.com:lwebert/Vehicle_Builder.git`
 2. Check that node.js is installed.  
    `node -v`
 3. Install dependencies.  
